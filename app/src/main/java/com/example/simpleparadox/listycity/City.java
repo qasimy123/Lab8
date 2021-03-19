@@ -21,4 +21,8 @@ public class City implements Comparable<City>{
     public int compareTo(City o) {
         return city.compareTo(o.getCityName());
     }
+
+    public Boolean sameProvince(City o) {
+        return this.province.equals(o.getProvinceName());
+    }
 }
