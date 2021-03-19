@@ -23,6 +23,6 @@ public class City implements Comparable<City>{
     }
 
     public Boolean sameProvince(City o) {
-        return false;
+        return this.province.equals(o.getProvinceName());
     }
 }
